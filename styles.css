@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.container{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 70vw;
+    text-align: center;
+    background-color: rgb(98, 95, 95);
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 25px;
+    padding: 10px;
+    width: 320px;
+    height: 210px;
+}
+
+h1{
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
